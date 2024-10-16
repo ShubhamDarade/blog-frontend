@@ -1,0 +1,50 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    /* Blue color */
+    color: #fff;
+    /* White color */
+    padding: 10px 20px;
+}
+
+.navbar-left,
+.navbar-center,
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left a,
+.navbar-center a,
+.navbar-right a {
+    color: #fff;
+    /* White color */
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.navbar-right a:last-child {
+    margin-right: 0;
+}
+
+.navbar-right a:hover {
+    color: black;
+    /* Darker blue color on hover */
+}
+
+.navbar-right button {
+    color: #fff;
+    /* White color */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.navbar-right button:hover {
+    color: black;
+    /* Darker blue color on hover */
+}
